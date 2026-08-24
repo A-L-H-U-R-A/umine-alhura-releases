@@ -1,0 +1,81 @@
+{
+  "manifestVersion": "1.0.0",
+  "application": {
+    "version": "1.0.0",
+    "minVersion": "1.0.0",
+    "name": "Umine Alhura Installer",
+    "description": "Installer for the Umine Alhura Ver.1.02 UTAU/OpenUtau voicebank",
+    "publisher": "Alhura Driftveil",
+    "website": "https://www.youtube.com/@uminealhura"
+  },
+  "voicebank": {
+    "name": "Umine Alhura",
+    "displayName": "海音アルフラ Umine Alhura Ver.1.02",
+    "version": "1.0.2",
+    "author": "Alhura Driftveil",
+    "description": "A Japanese UTAU voicebank created by the VTuber Alhura Driftveil",
+    "language": "Japanese",
+    "type": "CV",
+    "encoding": "Kana encoded / Kana aliased",
+    "recommendedRange": "C4-C6",
+    "bestPerformance": "G4-G5",
+    "voiceType": "Soprano",
+    "recommendedGenre": "Pop, Electropop, Denpa"
+  },
+  "archives": [
+    {
+      "id": "core",
+      "name": "Core",
+      "type": "voice-color",
+      "description": "The base CV voicebank. Monopitch Japanese CV recordings.",
+      "default": true,
+      "required": true,
+      "suffix": "",
+      "file": "umine-alhura-core-1.0.2.zip",
+      "archive": {
+        "url": "https://github.com/A.L.H.U.R.A/umine-alhura-releases/releases/download/v1.0.2/umine-alhura-core-1.0.2.zip",
+        "sha256": "bebcd4d7fae1c201114c079d46279c9df8e26fe2891b923597dce0287b167048",
+        "size": 0,
+        "version": "1.0.2"
+      }
+    },
+    {
+      "id": "sweet",
+      "name": "Sweet",
+      "type": "voice-color",
+      "description": "Whisper-like tone for soft and emotional songs.",
+      "default": true,
+      "required": false,
+      "suffix": "_S",
+      "file": "umine-alhura-sweet-1.0.2.zip",
+      "archive": {
+        "url": "https://github.com/A.L.H.U.R.A/umine-alhura-releases/releases/download/v1.0.2/umine-alhura-sweet-1.0.2.zip",
+        "sha256": "ef43b059d9fca6b9dd770e158832c8e5279df4ae7c11f58af3ddbcc6d005f5af",
+        "size": 0,
+        "version": "1.0.2"
+      }
+    },
+    {
+      "id": "assets",
+      "name": "Voicebank Assets",
+      "type": "assets",
+      "description": "Character images, metadata, and configuration files (character.txt, character.yaml, icons, portraits, etc.)",
+      "default": true,
+      "required": true,
+      "suffix": "",
+      "file": "umine-alhura-assets-1.0.2.zip",
+      "archive": {
+        "url": "https://github.com/A.L.H.U.R.A/umine-alhura-releases/releases/download/v1.0.2/umine-alhura-assets-1.0.2.zip",
+        "sha256": "26ca39697318fa78f3925ef35a4bf57dcd2b6ad10591464eec1ea5b635992f84",
+        "size": 0,
+        "version": "1.0.2"
+      }
+    }
+  ],
+  "releases": {
+    "version": "1.0.2",
+    "date": "2026-07-22",
+    "channel": "stable",
+    "changelog": "Added the Sweet append voicebank. Updated the README. Minor improvements."
+  }
+}
